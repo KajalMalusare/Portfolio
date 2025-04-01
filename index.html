@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+
+<body>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var typed = new Typed(".text", {
+                strings: ["Frontend Developer", "Programmer", "Web Developer"],
+                typeSpeed: 100,
+                backSpeed: 100,
+                backDelay: 1000,
+                loop: true,
+            });
+        });
+    </script>
+
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <nav class="navbar">
+            <a href="#home" style="--i:1" class="active">Home</a>
+            <a href="#about" style="--i:2">About</a>
+            <a href="#services" style="--i:3">Skill</a>
+            <a href="#skills" style="--i:4">Portfolio</a>
+            <a href="#contact" style="--i:5">Contact</a>
+        </nav>
+    </header>
+    <section class="home" id="home">
+        <div class="home-content">
+            <h3>Hello It's Me</h3>
+            <h1>Kajal Malusare</h1>
+            <h3>And I'm a <span class="text"> </span></h3>
+            <p>I'm a web developer with experience for over 1+ year.
+                <br>expertise is to create the web application using React.js, Node.js, Express.js,MongoDB and tailwind
+                css.
+                <br>also has the knowledge of Java and java frameworks like Spring Boot , Spring MVC, spring JDBC.
+            </p>
+            <div class="home-sci">
+                <a href="https://www.facebook.com/" style="--i:6"><i class="bx bxl-facebook"></i></a>
+                <a href="https://www.instagram.com/" style="--i:7" class="bx bxl-instagram"></a>
+                <a href="https://web.whatsapp.com/" style="--i:8" class="bx bxl-whatsapp"></a>
+                <!-- <a href="#" style="--i:9" class="bx bxl-tiktok"></a> -->
+            </div>
+            <a href="#" class="btn-box">More About Me</a>
+        </div>
+        <div class="home-img">
+            <img src="./images/profilepicture.png" alt="">
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-img">
+            <img src="./images/profilepicture.png" alt="">
+        </div>
+        <div class="about-text">
+            <h2>About<span>Me</span></h2>
+            <h4>Full Stack Developer !</h4>
+            <p>
+                Passionate MERN stack developer with 1.5 years of experience in developing React, Node.js, Express, and
+                MongoDB applications in a professional setting. Skilled in designing and developing user-friendly,
+                scalable, and high-performance web applications, with hands-on experience in API development,
+                authentication, real-time data processing, and state management.
+
+                Adept at creating responsive UI/UX designs, optimizing performance, and implementing modern development
+                practices. Enthusiastic about building innovative solutions and continuously learning new technologies.
+
+                Additionally, has completed a Full Stack Java Development course, gaining knowledge in Java-based
+                application development.
+            </p>
+            <a href="#" class="btn-box">More About Me</a>
+        </div>
+    </section>
+
+    <section>
+        <div class="services" id="services">
+            <div class="container">
+                <h1 class="sub-title">My <span>Services</span></h1>
+                <div class="services-list">
+                    <div>
+                        <i class="bx bx-code" style="color:#00eeff"></i>
+                        <h2>UI/UX Design</h2>
+                        <p>I have designed UI using HTML, CSS, and JavaScript, as well as modern frameworks like React.
+                            Additionally, I have utilized Tailwind CSS and Bootstrap to create responsive and visually
+                            appealing designs.</p>
+                        <a href="#" class="read">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="bx bx-crop" style="color:#00eeff"></i>
+                        <h2>UII/UX Design</h2>
+                        <p>I have designed UI using HTML, CSS, and JavaScript, as well as modern frameworks like React.
+                            Additionally, I have utilized Tailwind CSS and Bootstrap to create responsive and visually
+                            appealing designs.</p>
+                        <a href="#" class="read">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="bx bxl-apple" style="color:#00eeff"></i>
+                        <h2>UII/UX Design</h2>
+                        <p>I have designed UI using HTML, CSS, and JavaScript, as well as modern frameworks like React.
+                            Additionally, I have utilized Tailwind CSS and Bootstrap to create responsive and visually
+                            appealing designs.</p>
+                        <a href="#" class="read">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <h1 class="sub-title">My <span>Skills</span></h1>
+    <section>
+        <div class="container1" id="Skills">
+            <h1 class="heading1">Technical Skills</h1>
+            <div class="Technical-bars">
+                <div class="bar"><i class="bx bxl-html5" style="color: #147bbc;"></i>
+                    <div class="info">
+                        <span>HTML</span>
+                    </div>
+                    <div class="progress-line html">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i class="bx bxl-css3" style="color: #b0bc1e;"></i>
+                    <div class="info">
+                        <span>CSS</span>
+                    </div>
+                    <div class="progress-line css">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i class="bx bxl-javascript" style="color: #b0bc1e;"></i>
+                    <div class="info">
+                        <span>JavaScript</span>
+                    </div>
+                    <div class="progress-line javascript">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i class="bx bxl-react" style="color: #1e8abc;"></i>
+                    <div class="info">
+                        <span>React</span>
+                    </div>
+                    <div class="progress-line react">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i class="bx bxl-nodejs" style="color: #114611;"></i>
+                    <div class="info">
+                        <span>Node.js</span>
+                    </div>
+                    <div class="progress-line nodejs">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i class="bx bxl-mongodb" style="color: #0e4b1a;"></i>
+                    <div class="info">
+                        <span>MongoDB</span>
+                    </div>
+                    <div class="progress-line mongodb">
+                        <span></span>
+                    </div>
+                </div>
+                <div class="bar"><i class="bx bxl-java" style="color: #1976d9;"></i>
+                    <div class="info">
+                        <span>Java</span>
+                    </div>
+                    <div class="progress-line java">
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container1">
+            <h1 class="heading1">Professional Skills</h1>
+            <div class="radial-bars">
+
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="50"></circle>
+                        <circle class="path path-1" cx="100" cy="100" r="50"></circle>
+                    </svg>
+                    <div class="percentage">80%</div>
+                    <div class="text">Creativity</div>
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="50"></circle>
+                        <circle class="path path-2" cx="100" cy="100" r="50"></circle>
+                    </svg>
+                    <div class="percentage">65%</div>
+                    <div class="text">Creativity</div>
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="50"></circle>
+                        <circle class="path path-3" cx="100" cy="100" r="50"></circle>
+                    </svg>
+                    <div class="percentage">75%</div>
+                    <div class="text">Problem Solving</div>
+                </div>
+                <div class="radial-bar">
+                    <svg x="0px" y="0px" viewBox="0 0 200 200">
+                        <circle class="progress-bar" cx="100" cy="100" r="50"></circle>
+                        <circle class="path path-4" cx="100" cy="100" r="50"></circle>
+                    </svg>
+                    <div class="percentage">85%</div>
+                    <div class="text">Creativity</div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- <section>
+        <div id="Portfolio" id="project">
+            <div class="main-text" id="project">
+                <h2>Latest <span>Project</span></h2>
+                <div class="portfolio-content">
+                    <div class="row">
+                        <img src="" alt="">
+                        <div class="layer">
+                            <h5>UI/UX Design</h5>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus ipsam incidunt quod
+                                eos
+                                facilis. Numquam, autem quaerat aliquam maxime, ducimus eos in temporibus laboriosam
+                                dolorem
+                                corrupti, eveniet fugit sapiente incidunt?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="" alt="">
+                        <div class="layer">
+                            <h5>UI/UX Design</h5>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus ipsam incidunt quod
+                                eos
+                                facilis. Numquam, autem quaerat aliquam maxime, ducimus eos in temporibus laboriosam
+                                dolorem
+                                corrupti, eveniet fugit sapiente incidunt?
+                            </p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <img src="" alt="">
+                        <div class="layer">
+                            <h5>UI/UX Design</h5>
+                            <p>
+                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusamus ipsam incidunt quod
+                                eos
+                                facilis. Numquam, autem quaerat aliquam maxime, ducimus eos in temporibus laboriosam
+                                dolorem
+                                corrupti, eveniet fugit sapiente incidunt?
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section> -->
+    <section class="contact" id="contact">
+        <div class="contact-text">
+            <h2>Contact <span>Me</span></h2>
+            <h4>Let's work Together</h4>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit ratione, beatae dolorum velit nostrum
+                itaque porro error? Aut porro neque quaerat quam voluptatem placeat numquam at incidunt cupiditate
+                dignissimos? Aut!</p>
+            <div class="contact-list">
+                <li><i class="bx bxs-send"></i>contact@gmail.com</li>
+                <li class="bx bxs-phone">5674874567</li>
+            </div>
+            <div class="contact-icons">
+                <a href=""><i class="bx bxl-facebook"></i></a>
+                <a href=""><i class="bx bxl-twitter"></i></a>
+                <a href=""><i class="bx bxl-instagram"></i></a>
+                <a href=""><i class="bx bxl-linkedin"></i></a>
+            </div>
+        </div>
+        <div class="contact-form">
+            <form action="">
+                <input type="text" placeholder="Enter Your Name" required>
+                <input type="email" placeholder="Enter Your Email" required>
+                <input type="" placeholder="Enter Your Subject" required>
+                <textarea name="" id="" cols="40" rows="10" placeholder="Enter our Message"></textarea>
+                <input type="submit" value="submit" class="send">
+            </form>
+        </div>
+        </div>
+    </section>
+
+    <div class="last-text">
+        <p></p>
+    </div>
+
+    <a href="" class="top"><i class="bx bx-up-arrow-alt"></i></a>
+</body>
+
+</html>
